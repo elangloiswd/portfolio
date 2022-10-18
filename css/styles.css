@@ -1,0 +1,262 @@
+body {
+  background-color: #E8E8E8;
+  margin: 0;
+  padding: 0;
+text-align: center;
+}
+
+.topdiv {
+  text-align: center;
+  background-color: #5588A3;
+  top: 0;
+  left: auto;
+  right: auto;
+margin: auto;
+padding-top: 2%;
+      max-width: 100%;
+max-height: 20%;
+width: 100%;
+position: relative;
+
+  font-size: 30px;
+  font-family: 'Chakra Petch', Merriweather, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.webdev {
+
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0 auto;
+}
+
+.bottom-bar
+{
+position: fixed;
+bottom: 0;
+background-color: #5588A3;
+width: 100%;
+}
+
+.bottom-bar-text
+{
+text-align: center;
+
+}
+.middle-container
+{
+  padding: 8%;
+display: inline-block;
+  bottom: -20%;
+text-align: center;
+  font-family: 'Chakra Petch', Merriweather, sans-serif;
+}
+
+
+.contact-me
+{
+padding-top: 10%;
+margin-bottom: 0;
+
+}
+.icon
+{
+width: 20px;
+height: 20px;
+}
+.form{
+  width:100%;
+  padding:10px;
+  border-radius:10px;
+}
+.skill-row
+{
+
+  position: relative;
+padding-top: 10%;
+top: 0;
+left: auto;
+right: auto;
+    max-width: 100%;
+display: flex;
+border: 4px solid #dde2f8;
+box-shadow: 8px 6px #5588A3;
+background: #f3f4f6 ;
+
+margin-top: 5%;
+border-radius: 5px;
+padding: 20px;
+
+}
+
+.skill-row p
+{
+
+
+}
+.skills
+{
+overflow:auto;
+  padding: 5px;
+  position: relative;
+margin-left: 25%;
+margin-right: 25%;
+padding: 20px;
+ translate(-25%, -25%);
+}
+
+.skilltext
+{
+padding-left: 20px;
+text-align: left;
+padding-top: auto;
+}
+
+.skilltitle
+{
+
+  display: inline-block;
+padding-left: 30px;
+
+  position: absolute;
+margin-top: 10%;
+text-align: left;
+margin-right: : 50%;
+margin-left: auto;
+top: 0;
+width: 550px;
+
+
+
+}
+.roundimg
+{
+
+max-width: 100px;
+max-height: 100px;
+  border-radius: 50%;
+  border: 4px solid #5588A3;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+.mountain
+{
+  z-index: 1;
+  position: relative;
+left:auto;
+right: auto;
+margin-left: 0 auto;
+
+max-width: 40%;
+
+}
+.photo
+{
+  z-index: 2;
+position: absolute;
+overflow: hidden;
+top: 105%;
+left: 50%;
+right: 50%;
+transform: translate(-50%, -50%);
+
+max-width: 200px;
+max-height: 200px;
+  border-radius: 50%;
+   border: 10px solid #5588A3;
+
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+.cloud1
+{
+  z-index: 3;
+position: absolute;
+top: 58%;
+left:35%;
+max-width: 200px;
+max-height: 200px;
+}
+
+.cloud2
+{
+  z-index: 4;
+  position: absolute;
+  top: 68%;
+  left:54%;
+  max-width: 200px;
+  max-height: 200px;
+}
+#textarea
+{
+  margin: 5px;
+
+  padding: 5px;
+  border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+  width: 400px;
+ height: 200px;
+
+}
+
+#textarea:hover
+{
+    border: 1px solid #aaa;
+}
+
+hr
+{
+
+  margin: 3%;
+  width: 5%;
+   border-style: dotted none none;
+   border-width: 10px;
+   border-color: #5588A3;
+   margin-left: auto;
+   margin-right: auto;
+}
+.formfield
+{
+  margin: 5px;
+  padding: 15px;
+  border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+
+}
+.formfield:hover
+{
+    border: 1px solid #aaa;
+}
+
+.form
+{
+width: auto;
+height: auto;
+left: auto;
+right: auto;
+position: relative;
+text-align: center;
+
+}
+
+.bottom-container
+{
+position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 15px;
+  width: 30px;
+
+
+
+}
+.btn
+{
+  width: 30px;
+  height: auto;
+}
